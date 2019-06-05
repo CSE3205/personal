@@ -1,3 +1,7 @@
+.Container {
+	height: 100%;
+	min-height: 700%;
+}
 div {
 	text-align:center;
 }
@@ -13,7 +17,7 @@ nav{
 	background-color: powderblue;
 	text-align: center;
 	width: 20%;
-	height:200%;
+	height:100%;
 	border: 1px solid black;
 	float: left;
 }
@@ -41,9 +45,11 @@ nav{
 }
 footer{
 	background-color: black;
-	position:absolute;
-	bottom:0%;
-	font-color:white;
+	color: white;
+	position: relative;
+	margin-top: -180px;
+	height: 20px;
+	clear: both;
 	margin-left:0%;
 }
 
